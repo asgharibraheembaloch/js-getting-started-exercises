@@ -17,6 +17,7 @@ console.log("name is in upper cases:", personName.toUpperCase())
 Note: in javascript there is no method available to title case variable directly, so we have to create function
 that will take variable string as input and convert it into title case
 */
+
 function titleCase(str) {
     // Step 1. Lowercase the string
     str = str.toLowerCase();
