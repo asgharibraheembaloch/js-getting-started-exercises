@@ -9,5 +9,5 @@ favouritePerson = ["zia khan", "zeesha hanif", "danial nagori"]
 
 // using js normal sequence based for loop
 for (let i = 0; i < favouritePerson.length; i++){
-    console.log(`Hi ${favouritePerson[i]}! you are invited to dinner`)
+    console.log(`Hi ${favouritePerson[i]}! you are invited to dinner.`)
 }
