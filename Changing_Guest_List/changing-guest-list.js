@@ -6,7 +6,7 @@ invitations. You’ll have to think of someone else to invite.
  */
 
 let favouritePerson = ["zia khan", "zeesha hanif", "danial nagori"]
-let invitation = []
+let alternatePerson = "ahmad"
 
 // danial is unavailable
 let reply = {"zia khan":"available", "zeesha hanif":"available", "danial nagori":"not available"}
@@ -14,12 +14,13 @@ let reply = {"zia khan":"available", "zeesha hanif":"available", "danial nagori"
 for (let i = 0; i < favouritePerson.length; i++){
     console.log(`Hi ${favouritePerson[i]}! you are invited to dinner, please reply with 'available', or 'not available'`)
     if (reply[favouritePerson[i]] === "available"){
-        invitation.push(favouritePerson[i])
+        console.log(`${favouritePerson[i]} is avaialble for dinner`)
     }
     else if (reply[favouritePerson[i]] === "not available"){        
         console.log(`${favouritePerson[i]} is not avaialble for dinner`)
         // ahmad is always available
-        favouritePerson[i] = "ahmad"
+        favouritePerson[i] = alternatePerson
+        console.log(`${alternatePerson} is a guest who is invited in place for not available guest`)
     }
 }
 
