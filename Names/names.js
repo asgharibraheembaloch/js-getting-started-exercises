@@ -4,7 +4,7 @@ Store the names of a few of your friends in a array called names. Print each per
 element in the list, one at a time.
 */
 
-names = ["rauman, zain, haris, fahad, laraib"]
+names = ["rauman", "zain", "haris", "fahad", "laraib"]
 
 // using js normal sequence based for loop
 for (let i = 0; i < names.length; i++){
