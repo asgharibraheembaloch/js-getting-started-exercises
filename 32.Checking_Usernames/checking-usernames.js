@@ -1,4 +1,5 @@
 /* 
+                                            Challange
 Do the following to create a program that simulates how websites ensure that everyone has a unique username.
 • Make a list of five or more usernames called current_users.
 • Make another list of five usernames called new_users. 
